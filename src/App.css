@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+/* date picker */
+.date-picker {
+  position: relative;
+  display: inline-block;
+}
+
+.date-input {
+  padding: 10px;
+  width: 200px;
+}
+
+/* drop down */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 1px;
+  border: 1px solid #ccc;
+  width: 222px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
