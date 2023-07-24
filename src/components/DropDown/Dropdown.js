@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Dropdown = ({ handleOnChnage }) => {
+const Dropdown = ({ handleOnChange }) => {
   const reportFrequency = ['Weekly', 'Bi-Weekly', 'Monthly', 'Bi-Monthly'];
 
   return (
-    <div>
-      <select onChange={handleOnChnage} defaultValue="">
+    <>
+      <select onChange={handleOnChange} defaultValue="">
         <option value="" disabled hidden>
           Report Frequency
         </option>
@@ -13,7 +13,7 @@ const Dropdown = ({ handleOnChnage }) => {
           return <option key={index}>{option}</option>;
         })}
       </select>
-    </div>
+    </>
   );
 };
 

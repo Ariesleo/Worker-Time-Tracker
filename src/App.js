@@ -1,5 +1,5 @@
 import './App.css';
-import WorkerTimeTracker from './pages/WorkerTimeTracker';
+import WorkerTimeTracker from './pages/WorkerTimeTracker.js';
 
 function App() {
   return (

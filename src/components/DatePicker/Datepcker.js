@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Datepcker = ({ label, handleDatePicker, name }) => {
+const Datepcker = ({ label, handleChange, name }) => {
   return (
     <div className="date-picker">
       <input
@@ -8,7 +8,7 @@ const Datepcker = ({ label, handleDatePicker, name }) => {
         name={name}
         className="date-input"
         placeholder={label}
-        onChange={handleDatePicker}
+        onChange={handleChange}
         onFocus={(e) => (e.target.type = 'date')}
         onBlur={(e) => (e.target.type = 'text')}
       />
