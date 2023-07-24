@@ -50,7 +50,7 @@ const WorkerTimeTracker = () => {
           name="endDate"
           handleChange={handleEndDate}
         />
-        <Dropdown handleOnChnage={handleReportFrequency} />
+        <Dropdown handleOnChange={handleReportFrequency} />
         {/* seperate component for the data display like table component */}
       </div>
       <Table />
