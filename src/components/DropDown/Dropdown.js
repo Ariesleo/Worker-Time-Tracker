@@ -4,7 +4,7 @@ const Dropdown = ({ handleOnChnage }) => {
   const reportFrequency = ['Weekly', 'Bi-Weekly', 'Monthly', 'Bi-Monthly'];
 
   return (
-    <div>
+    <>
       <select onChange={handleOnChnage} defaultValue="">
         <option value="" disabled hidden>
           Report Frequency
@@ -13,7 +13,7 @@ const Dropdown = ({ handleOnChnage }) => {
           return <option key={index}>{option}</option>;
         })}
       </select>
-    </div>
+    </>
   );
 };
 
